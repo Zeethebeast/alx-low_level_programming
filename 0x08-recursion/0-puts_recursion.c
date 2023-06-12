@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _puts__recursion - function that prints a string recusively
+ * _puts_recursion - function that prints a string recusively
  * @s: input
  * Return: always 0
  */
