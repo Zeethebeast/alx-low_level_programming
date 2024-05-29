@@ -6,7 +6,7 @@ SRC = main.c school.c
 all: school
 
 school: main.o school.o
-	$(CC) $(SRC) -c school
+	$(CC) main.o school.o -o school
 main.o: main.c
 	$(CC) -c main.c -o main.o
 school.o: school.c
